@@ -21,6 +21,29 @@ const config: Config = {
         25: ".25",
         175: "1.75",
       },
+      screens: {
+        sm: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        md: "768px",
+        // => @media (min-width: 768px) { ... }
+
+        lg: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        xl: "1280px",
+        // => @media (min-width: 1280px) { ... }
+
+        "2xl": "1440px",
+        // => @media (min-width: 1536px) { ... }
+      },
+    },
+  },
+  variants: {
+    extend: {
+      display: ["group-focus"],
+      opacity: ["group-focus"],
+      inset: ["group-focus"],
     },
   },
   plugins: [],
