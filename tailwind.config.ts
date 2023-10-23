@@ -16,6 +16,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         heroImage: "url('../image/bovenzijde trap horizontaal.png')",
+        firstImage: "url('/Trap met grijze treden.jpeg')",
+        secondImage: "url('/Trap met witte treden en antraciete wangen.jpeg')",
+        thirdImage: "url('/Trap met antraciente treden.jpeg')",
+        fourthImage: "url('/Open trap met eiken treden.jpeg')",
+        fifthImage: "url('/Antraciete trap met verlichting.jpeg')",
       },
       brightness: {
         25: ".25",
