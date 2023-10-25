@@ -63,7 +63,7 @@ const contact = () => {
                     ></textarea>
                   </div>
                   <div className="text-right m-2">
-                    <button className="bg-red-700 py-3 px-6 text-lg rounded-full">
+                    <button className="bg-red-700 py-2 px-8 text-lg rounded-full">
                       Verstuur
                     </button>
                   </div>

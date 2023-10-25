@@ -49,51 +49,72 @@ const Header = ({ option }: options) => {
         <div className="container mx-auto">
           <div className="relative h-[114px] w-full z-10 flex flex-row justify-between items-center">
             <div>
-              <Image
-                src="/logo witte letters.png"
-                alt=""
-                width="200"
-                height="50"
-                className=""
-              />
+              <Link href="/">
+                <Image
+                  src="/logo witte letters.png"
+                  alt=""
+                  width="200"
+                  height="50"
+                  className=""
+                />
+              </Link>
             </div>
-
             <div className="hidden space-x-8 md:block">
-              <button className="text-lg">Gallery</button>
-              <button className="text-lg">Over ons</button>
-              <button className="text-lg">Contact</button>
-              <button className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+              <Link href="/gallery" className="text-lg">
+                Gallery
+              </Link>
+              <Link className="text-lg" href="/over-ons">
+                Over ons
+              </Link>
+              <Link className="text-lg" href="/contact">
+                Contact
+              </Link>
+              <Link
+                className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+                href="/configureer"
+              >
                 Configureer trap
-              </button>
+              </Link>
             </div>
             <button className="md:hidden block py-3 px-4 mx-2 rounded focus:outline-none hover-bg-gray-200 group">
               <div className="w-5 h-1 bg-white mb-1"></div>
               <div className="w-5 h-1 bg-white mb-1"></div>
               <div className="w-5 h-1 bg-white"></div>
               <div className="absolute top-0 -right-full opacity-0 h-screen w-10/12 bg-gray-800 transform group-focus:right-[-20px] group-focus:opacity-100 transition-all duration-300">
-                <ul className="flex flex-col font-medium">
+                <ul className="flex flex-col font-medium m-4">
                   <li className="mx-auto">
-                    <Image
-                      src="/logo witte letters.png"
-                      alt=""
-                      width="200"
-                      height="50"
-                      className="my-[-45px]"
-                    />
+                    <Link href="/">
+                      <Image
+                        src="/logo witte letters.png"
+                        alt=""
+                        width="200"
+                        height="50"
+                        className="my-[-45px]"
+                      />
+                    </Link>
                   </li>
-                  <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Gallery</a>
+                  <li className="text-center m-1 p-2 rounded-lg hover:cursor-pointer hover:bg-gray-600">
+                    <Link href="/gallery" className="text-lg">
+                      Gallery
+                    </Link>
                   </li>
-                  <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Over ons</a>
+                  <li className="text-center m-1 p-2 rounded-lg hover:cursor-pointer hover:bg-gray-600">
+                    <Link className="text-lg" href="/over-ons">
+                      Over ons
+                    </Link>
                   </li>
-                  <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Contact</a>
+                  <li className="text-center m-1 p-2 rounded-lg hover:cursor-pointer hover:bg-gray-600">
+                    <Link className="text-lg" href="/contact">
+                      Contact
+                    </Link>
                   </li>
-                  <li className="text-center m-4 hover:cursor-pointer">
-                    <a className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+                  <li className="text-center m-1 hover:cursor-pointer">
+                    <Link
+                      className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+                      href="/configureer"
+                    >
                       Configureer trap
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -163,13 +184,15 @@ const Header = ({ option }: options) => {
         <div className="container mx-auto">
           <div className="relative h-[114px] w-full z-10 flex flex-row justify-between items-center">
             <div>
-              <Image
-                src="/logo witte letters.png"
-                alt=""
-                width="200"
-                height="50"
-                className=""
-              />
+              <Link href="/">
+                <Image
+                  src="/logo witte letters.png"
+                  alt=""
+                  width="200"
+                  height="50"
+                  className=""
+                />
+              </Link>
             </div>
             <div className="hidden space-x-8 md:block">
               <Link href="/gallery" className="text-lg">
