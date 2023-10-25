@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface options {
   option: string;
@@ -171,12 +172,21 @@ const Header = ({ option }: options) => {
               />
             </div>
             <div className="hidden space-x-8 md:block">
-              <button className="text-lg">Gallery</button>
-              <button className="text-lg">Over ons</button>
-              <button className="text-lg">Contact</button>
-              <button className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+              <Link href="/gallery" className="text-lg">
+                Gallery
+              </Link>
+              <Link className="text-lg" href="/over-ons">
+                Over ons
+              </Link>
+              <Link className="text-lg" href="/contact">
+                Contact
+              </Link>
+              <Link
+                className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+                href="/configureer"
+              >
                 Configureer trap
-              </button>
+              </Link>
             </div>
             <button className="md:hidden block py-3 px-4 mx-2 rounded focus:outline-none hover-bg-gray-200 group">
               <div className="w-5 h-1 bg-white mb-1"></div>
