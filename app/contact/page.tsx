@@ -59,7 +59,7 @@ const contact = () => {
                       name="question"
                       id="question"
                       rows={4}
-                      className="relative w-full h-14 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg resize"
+                      className="relative w-full h-14 py-4 px-3 m-2 border min-h-[150px] text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg resize"
                     ></textarea>
                   </div>
                   <div className="text-right m-2">
