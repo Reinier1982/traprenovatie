@@ -13,13 +13,20 @@ const configurator = () => {
               Configureer uw droom trap
             </h2>
             <div className="grid grid-cols-7 border-2 border-slate-300 w-full h-[800px]">
-              <div className="col-span-5">
+              <div className="relative col-span-5">
                 <Image
                   src="/trap-kaal2.png"
                   alt="trap kaal"
-                  width={100}
-                  height={100}
-                  className="w-full max-h-[800px]"
+                  width={1000}
+                  height={1000}
+                  className=" w-full max-h-[800px]"
+                />
+                <Image
+                  src="/trede/trap-trede-beuken1.png"
+                  alt="trap kaal"
+                  width={1000}
+                  height={1000}
+                  className="absolute left-0 top-0 w-full max-h-[800px]"
                 />
               </div>
               <div className="col-span-2 bg-slate-200">
