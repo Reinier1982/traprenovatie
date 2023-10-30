@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Beuken licht",
+    "src": "/colors/Beuken licht.png"
+  },
+  {
+    "id": 2,
+    "name": "Beuken",
+    "src": "/colors/Beuken.png"
+  },
+  {
+    "id": 3,
+    "name": "Eiken licht",
+    "src": "/colors/Eiken licht.png"
+  },
+  {
+    "id": 4,
+    "name": "Eiken",
+    "src": "/colors/Eiken.png"
+  },
+  {
+    "id": 5,
+    "name": "Moeras eik grijs",
+    "src": "/colors/Moeras eik grijs.png"
+  },
+  {
+    "id": 6,
+    "name": "Wenge",
+    "src": "/colors/Wenge.png"
+  },
+  {
+    "id": 7,
+    "name": "Wit",
+    "src": "/colors/Wit.png"
+  },
+  {
+    "id": 8,
+    "name": "Zwart",
+    "src": "/colors/Zwart.png"
+  }
+]

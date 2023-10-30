@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Beuken",
+    "src": "/trede/trap-trede-beuken.png"
+  },
+  {
+    "id": 2,
+    "name": "Eiken",
+    "src": "/trede/trap-trede-eiken.png"
+  },
+  {
+    "id": 2,
+    "name": "Eiken",
+    "src": "/trede/trap-trede-eiken-licht-gebleekt.png"
+  }
+]
