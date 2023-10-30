@@ -12,7 +12,6 @@ const configurator = () => {
   const [selectedStep, setSelectedStep] = useState(1);
   const handleClick = (event: any, key: number) => {
     setSelectedStep(key);
-    console.log(event, key);
   };
   const stepSetter = () => {
     const step = steps.find((step) => step.id === selectedStep);
@@ -51,11 +50,11 @@ const configurator = () => {
                     <div
                       onClick={(event) => handleClick(event, color.id)}
                       key={color.id}
-                      className={`flex items-center justify-center border-transparent border-2 ${
-                        color.id === selectedStep
+                      className={`flex items-center justify-center border-2 ${
+                        color.id == selectedStep
                           ? "rounded-full border-gray-500"
-                          : ""
-                      } hover:rounded-full hover:border-gray-500`}
+                          : "hover:rounded-full hover:border-gray-500"
+                      } `}
                     >
                       <Image
                         src={color.src}

@@ -10,8 +10,23 @@
     "src": "/trede/trap-trede-eiken.png"
   },
   {
-    "id": 2,
-    "name": "Eiken",
+    "id": 3,
+    "name": "Eiken licht gebleekt",
     "src": "/trede/trap-trede-eiken-licht-gebleekt.png"
+  },
+  {
+    "id": 4,
+    "name": "Moeras eik grijs",
+    "src": "/trede/trap-trede-moeraseik-grijs.png"
+  },
+  {
+    "id": 5,
+    "name": "Wenge",
+    "src": "/trede/trap-trede-wengé.png"
+  },
+  {
+    "id": 6,
+    "name": "Zwart",
+    "src": "/trede/trap-trede-zwart.png"
   }
 ]
