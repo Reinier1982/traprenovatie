@@ -28,5 +28,25 @@
     "id": 6,
     "name": "Zwart",
     "src": "/trede/trap-trede-zwart.png"
+  },
+  {
+    "id": 7,
+    "name": "Royal",
+    "src": "/trede/trap-trede-royal.png"
+  },
+  {
+    "id": 8,
+    "name": "Country",
+    "src": "/trede/trap-trede-country.png"
+  },
+  {
+    "id": 9,
+    "name": "Mustang",
+    "src": "/trede/trap-trede-mustang.png"
+  },
+  {
+    "id": 10,
+    "name": "Vintage",
+    "src": "/trede/trap-trede-vintage.png"
   }
 ]

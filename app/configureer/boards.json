@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Beuken",
+    "src": "/stootbord/trap-stoot-beuken.png"
+  },
+  {
+    "id": 2,
+    "name": "Eiken",
+    "src": "/stootbord/trap-stoot-eiken.png"
+  },
+  {
+    "id": 3,
+    "name": "Country",
+    "src": "/stootbord/trap-stoot-country.png"
+  },
+  {
+    "id": 4,
+    "name": "Moeras eik grijs",
+    "src": "/stootbord/trap-stoot-moeraseik-grijs.png"
+  },
+  {
+    "id": 5,
+    "name": "Wenge",
+    "src": "/stootbord/trap-stoot-wengé.png"
+  },
+  {
+    "id": 6,
+    "name": "Zwart",
+    "src": "/stootbord/trap-stoot-zwart.png"
+  },
+  {
+    "id": 7,
+    "name": "Aluminium",
+    "src": "/stootbord/trap-stoot-alu.png"
+  },
+  {
+    "id": 8,
+    "name": "Beton",
+    "src": "/stootbord/trap-stoot-beton.png"
+  },
+  {
+    "id": 9,
+    "name": "Bluesteel",
+    "src": "/stootbord/trap-stoot-bluesteel.png"
+  },
+  {
+    "id": 10,
+    "name": "Canyon",
+    "src": "/stootbord/trap-stoot-canyon.png"
+  },
+  {
+    "id": 11,
+    "name": "Castle",
+    "src": "/stootbord/trap-stoot-castle.png"
+  },
+  {
+    "id": 12,
+    "name": "Cognac",
+    "src": "/stootbord/trap-stoot-cognac.png"
+  }
+]

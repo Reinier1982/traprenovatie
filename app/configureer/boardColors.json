@@ -11,8 +11,8 @@
   },
   {
     "id": 3,
-    "name": "Eiken licht",
-    "src": "/colors/Eiken licht.png"
+    "name": "Country",
+    "src": "/colors/Country.png"
   },
   {
     "id": 4,
@@ -31,22 +31,32 @@
   },
   {
     "id": 7,
-    "name": "Royal",
-    "src": "/colors/Royal.png"
+    "name": "Aluminium",
+    "src": "/colors/Aluminium.png"
   },
   {
     "id": 8,
-    "name": "Country",
-    "src": "/colors/Country.png"
+    "name": "Beton",
+    "src": "/colors/Beton.png"
   },
   {
     "id": 9,
-    "name": "Mustang",
-    "src": "/colors/Mustang.png"
+    "name": "Bluesteel",
+    "src": "/colors/Bluesteel.png"
   },
   {
     "id": 10,
-    "name": "Vintage",
-    "src": "/colors/Vintage.png"
+    "name": "Canyon",
+    "src": "/colors/Canyon.png"
+  },
+  {
+    "id": 11,
+    "name": "Castle",
+    "src": "/colors/Castle.png"
+  },
+  {
+    "id": 12,
+    "name": "Cognac",
+    "src": "/colors/Cognac.png"
   }
 ]
