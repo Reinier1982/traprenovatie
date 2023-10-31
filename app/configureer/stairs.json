@@ -48,5 +48,70 @@
     "id": 10,
     "name": "Vintage",
     "src": "/trede/trap-trede-vintage.png"
+  },
+  {
+    "id": 11,
+    "name": "Vermont",
+    "src": "/trede/trap-trede-vermont.png"
+  },
+  {
+    "id": 12,
+    "name": "Nordic",
+    "src": "/trede/trap-trede-nordic.png"
+  },
+  {
+    "id": 13,
+    "name": "Iceberg",
+    "src": "/trede/trap-trede-iceberg.png"
+  },
+  {
+    "id": 14,
+    "name": "Canyon",
+    "src": "/trede/trap-trede-canyon.png"
+  },
+  {
+    "id": 15,
+    "name": "Macchiato",
+    "src": "/trede/trap-trede-macchiato.png"
+  },
+  {
+    "id": 16,
+    "name": "Loft",
+    "src": "/trede/trap-trede-loft.png"
+  },
+  {
+    "id": 17,
+    "name": "Beton",
+    "src": "/trede/trap-trede-beton.png"
+  },
+  {
+    "id": 18,
+    "name": "Bluesteel",
+    "src": "/trede/trap-trede-bluesteel.png"
+  },
+  {
+    "id": 19,
+    "name": "Cognac",
+    "src": "/trede/trap-trede-cognac.png"
+  },
+  {
+    "id": 20,
+    "name": "Terra",
+    "src": "/trede/trap-trede-terra.png"
+  },
+  {
+    "id": 21,
+    "name": "Castle",
+    "src": "/trede/trap-trede-castle.png"
+  },
+  {
+    "id": 22,
+    "name": "Havanna",
+    "src": "/trede/trap-trede-havanna.png"
+  },
+  {
+    "id": 23,
+    "name": "Toscana",
+    "src": "/trede/trap-trede-toscana.png"
   }
 ]

@@ -48,5 +48,70 @@
     "id": 10,
     "name": "Vintage",
     "src": "/colors/Vintage.png"
+  },
+  {
+    "id": 11,
+    "name": "Vermont",
+    "src": "/colors/Vermont.png"
+  },
+  {
+    "id": 12,
+    "name": "Nordic",
+    "src": "/colors/Nordic.png"
+  },
+  {
+    "id": 13,
+    "name": "Iceberg",
+    "src": "/colors/Iceberg.png"
+  },
+  {
+    "id": 14,
+    "name": "Canyon",
+    "src": "/colors/Canyon.png"
+  },
+  {
+    "id": 15,
+    "name": "Macchiato",
+    "src": "/colors/Macchiato.png"
+  },
+  {
+    "id": 16,
+    "name": "Loft",
+    "src": "/colors/Loft.png"
+  },
+  {
+    "id": 17,
+    "name": "Beton",
+    "src": "/colors/Beton.png"
+  },
+  {
+    "id": 18,
+    "name": "Bluesteel",
+    "src": "/colors/Bluesteel.png"
+  },
+  {
+    "id": 19,
+    "name": "Cognac",
+    "src": "/colors/Cognac.png"
+  },
+  {
+    "id": 20,
+    "name": "Terra",
+    "src": "/colors/Terra.png"
+  },
+  {
+    "id": 21,
+    "name": "Castle",
+    "src": "/colors/Castle.png"
+  },
+  {
+    "id": 22,
+    "name": "Havanna",
+    "src": "/colors/Havanna.png"
+  },
+  {
+    "id": 23,
+    "name": "Toscana",
+    "src": "/colors/Toscana.png"
   }
 ]
