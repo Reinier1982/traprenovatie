@@ -123,7 +123,7 @@ const contact = () => {
                 ></iframe>
                 <p className="p-4">
                   Ons werkgebied: Noord Holland, Utrecht, Regio Almere, Regio
-                  Den Haag
+                  Lelystad, Regio Den Haag
                 </p>
               </div>
             </div>
