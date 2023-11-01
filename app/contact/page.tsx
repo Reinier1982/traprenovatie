@@ -77,7 +77,7 @@ const contact = () => {
                 </p>
                 <p>Maanzaadstraat 76</p>
                 <p className="mb-4">1446 ET Purmerend</p>
-                <p>Telefoonummer: 0299 123 456</p>
+                <p>Telefoonummer: 06 3970 2331</p>
                 <p>
                   E-mail:{" "}
                   <a href="mailto:info@kompleettraprenovatie.nl">

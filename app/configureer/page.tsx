@@ -114,8 +114,12 @@ const configurator = () => {
     <div className="flex flex-col min-h-screen">
       <Header option="other" />
       <section className="flex-grow">
-        <div className="bg-white w-full">
-          <div className="container mx-auto h-full py-8">
+        <div className="bg-white w-full h-[1000px]">
+          <h2 className="container mx-auto text-2xl text-center text-black font-bold py-8 xl:hidden">
+            Helaas is onze configurator alleen beschikbaar op een volledig
+            computer scherm.
+          </h2>
+          <div className="container mx-auto h-full py-8 hidden xl:block">
             <h2 className="text-4xl text-center text-black font-bold py-8">
               Configureer uw droom trap
             </h2>
