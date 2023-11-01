@@ -1,17 +1,17 @@
 import Image from "next/image";
 
-interface stepInterface {
+interface boardInterface {
   id: number;
   src: string;
   name: string;
   className?: string;
 }
 
-interface stepProps {
-  data: stepInterface;
+interface boardProps {
+  data: boardInterface;
 }
 
-const Step = ({ data }: stepProps) => {
+const Cheek = ({ data }: boardProps) => {
   return (
     <>
       <Image
@@ -25,4 +25,4 @@ const Step = ({ data }: stepProps) => {
   );
 };
 
-export default Step;
+export default Cheek;

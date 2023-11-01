@@ -19,7 +19,7 @@ const Board = ({ data }: boardProps) => {
         alt={data.name}
         width={1000}
         height={1000}
-        className="absolute left-0 top-0 w-full max-h-[800px]"
+        className="absolute left-0 top-0 w-full max-h-[700px]"
       />
     </>
   );

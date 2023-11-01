@@ -11,18 +11,18 @@
   },
   {
     "id": 3,
-    "name": "Country",
-    "src": "/stootbord/trap-stoot-country.png"
-  },
-  {
-    "id": 4,
     "name": "Moeras eik grijs",
     "src": "/stootbord/trap-stoot-moeraseik-grijs.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Wenge",
     "src": "/stootbord/trap-stoot-wengé.png"
+  },
+  {
+    "id": 5,
+    "name": "Wit",
+    "src": "/stootbord/trap-stoot-wit.png"
   },
   {
     "id": 6,
@@ -31,32 +31,97 @@
   },
   {
     "id": 7,
+    "name": "Royal",
+    "src": "/stootbord/trap-stoot-royal.png"
+  },
+  {
+    "id": 8,
+    "name": "Country",
+    "src": "/stootbord/trap-stoot-country.png"
+  },
+  {
+    "id": 9,
+    "name": "Mustang",
+    "src": "/stootbord/trap-stoot-mustang.png"
+  },
+  {
+    "id": 10,
+    "name": "Vintage",
+    "src": "/stootbord/trap-stoot-vintage.png"
+  },
+  {
+    "id": 11,
     "name": "Aluminium",
     "src": "/stootbord/trap-stoot-alu.png"
   },
   {
-    "id": 8,
-    "name": "Beton",
-    "src": "/stootbord/trap-stoot-beton.png"
+    "id": 12,
+    "name": "Vermont",
+    "src": "/stootbord/trap-stoot-vermont.png"
   },
   {
-    "id": 9,
-    "name": "Bluesteel",
-    "src": "/stootbord/trap-stoot-bluesteel.png"
+    "id": 13,
+    "name": "Nordic",
+    "src": "/stootbord/trap-stoot-nordic.png"
   },
   {
-    "id": 10,
+    "id": 14,
+    "name": "Iceberg",
+    "src": "/stootbord/trap-stoot-iceberg.png"
+  },
+  {
+    "id": 15,
     "name": "Canyon",
     "src": "/stootbord/trap-stoot-canyon.png"
   },
   {
-    "id": 11,
+    "id": 17,
+    "name": "Loft",
+    "src": "/stootbord/trap-stoot-loft.png"
+  },
+  {
+    "id": 18,
+    "name": "Beton",
+    "src": "/stootbord/trap-stoot-beton.png"
+  },
+  {
+    "id": 19,
+    "name": "Bluesteel",
+    "src": "/stootbord/trap-stoot-bluesteel.png"
+  },
+  {
+    "id": 20,
+    "name": "Cognac",
+    "src": "/stootbord/trap-stoot-cognac.png"
+  },
+  {
+    "id": 21,
+    "name": "Terra",
+    "src": "/stootbord/trap-stoot-terra.png"
+  },
+  {
+    "id": 22,
+    "name": "Platin",
+    "src": "/stootbord/trap-stoot-platin.png"
+  },
+  {
+    "id": 23,
+    "name": "Jasmin",
+    "src": "/stootbord/trap-stoot-jasmin.png"
+  },
+  {
+    "id": 24,
     "name": "Castle",
     "src": "/stootbord/trap-stoot-castle.png"
   },
   {
-    "id": 12,
-    "name": "Cognac",
-    "src": "/stootbord/trap-stoot-cognac.png"
+    "id": 25,
+    "name": "Havanna",
+    "src": "/stootbord/trap-stoot-havanna.png"
+  },
+  {
+    "id": 26,
+    "name": "Toscana",
+    "src": "/stootbord/trap-stoot-toscana.png"
   }
 ]

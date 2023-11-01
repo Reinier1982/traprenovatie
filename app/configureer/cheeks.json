@@ -2,126 +2,131 @@
   {
     "id": 1,
     "name": "Beuken",
-    "src": "/colors/Beuken.png"
+    "src": "/wang/trap-wang-beuken.png"
   },
   {
     "id": 2,
     "name": "Eiken",
-    "src": "/colors/Eiken.png"
+    "src": "/wang/trap-wang-eiken.png"
   },
   {
     "id": 3,
     "name": "Moeras eik grijs",
-    "src": "/colors/Moeras eik grijs.png"
+    "src": "/wang/trap-wang-moeraseik-grijs.png"
   },
   {
     "id": 4,
     "name": "Wenge",
-    "src": "/colors/Wenge.png"
+    "src": "/wang/trap-wang-wengé.png"
   },
   {
     "id": 5,
     "name": "Wit",
-    "src": "/colors/Wit.png"
+    "src": "/wang/trap-wang-wit.png"
   },
   {
     "id": 6,
     "name": "Zwart",
-    "src": "/colors/Zwart.png"
+    "src": "/wang/trap-wang-zwart.png"
   },
   {
     "id": 7,
     "name": "Royal",
-    "src": "/colors/Royal.png"
+    "src": "/wang/trap-wang-royal.png"
   },
   {
     "id": 8,
     "name": "Country",
-    "src": "/colors/Country.png"
+    "src": "/wang/trap-wang-country.png"
   },
   {
     "id": 9,
     "name": "Mustang",
-    "src": "/colors/Mustang.png"
+    "src": "/wang/trap-wang-mustang.png"
   },
   {
     "id": 10,
     "name": "Vintage",
-    "src": "/colors/Vintage.png"
+    "src": "/wang/trap-wang-vintage.png"
   },
   {
     "id": 11,
     "name": "Aluminium",
-    "src": "/colors/Aluminium.png"
+    "src": "/wang/trap-wang-alu.png"
   },
   {
     "id": 12,
     "name": "Vermont",
-    "src": "/colors/Vermont.png"
+    "src": "/wang/trap-wang-vermont.png"
   },
   {
     "id": 13,
     "name": "Nordic",
-    "src": "/colors/Nordic.png"
+    "src": "/wang/trap-wang-nordic.png"
   },
   {
     "id": 14,
     "name": "Iceberg",
-    "src": "/colors/Iceberg.png"
+    "src": "/wang/trap-wang-iceberg.png"
   },
   {
     "id": 15,
     "name": "Canyon",
-    "src": "/colors/Canyon.png"
+    "src": "/wang/trap-wang-canyon.png"
   },
   {
     "id": 17,
     "name": "Loft",
-    "src": "/colors/Loft.png"
+    "src": "/wang/trap-wang-loft.png"
   },
   {
     "id": 18,
     "name": "Beton",
-    "src": "/colors/Beton.png"
+    "src": "/wang/trap-wang-beton.png"
   },
   {
     "id": 19,
     "name": "Bluesteel",
-    "src": "/colors/Bluesteel.png"
+    "src": "/wang/trap-wang-bluesteel.png"
   },
   {
     "id": 20,
     "name": "Cognac",
-    "src": "/colors/Cognac.png"
+    "src": "/wang/trap-wang-cognac.png"
   },
   {
     "id": 21,
     "name": "Terra",
-    "src": "/colors/Terra.png"
+    "src": "/wang/trap-wang-terra.png"
   },
   {
     "id": 22,
     "name": "Platin",
-    "src": "/colors/Platin.png"
+    "src": "/wang/trap-wang-platin.png"
   },
   {
     "id": 23,
     "name": "Jasmin",
-    "src": "/colors/Jasmin.png"
+    "src": "/wang/trap-wang-jasmin.png"
   },
   {
     "id": 24,
     "name": "Castle",
-    "src": "/colors/Castle.png"
+    "src": "/wang/trap-wang-castle.png"
   },
   {
     "id": 25,
     "name": "Havanna",
-    "src": "/colors/Havanna.png"
+    "src": "/wang/trap-wang-havanna.png"
   },
   {
     "id": 26,
     "name": "Toscana",
-    "src": "/colors/Toscana.png"
+    "src": "/wang/trap-wang-toscana.png"
+  },
+  {
+    "id": 27,
+    "name": "Eiken licht gebleekt",
+    "src": "/wang/trap-wang-eiken-licht.png"
   }
 ]
