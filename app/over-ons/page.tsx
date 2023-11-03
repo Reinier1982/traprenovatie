@@ -40,7 +40,7 @@ const about = () => {
                 lossen we dit direct voor u op. Dat is de service waarop u kunt
                 rekenen.
               </p>
-              <div className="">
+              <div className="mt-24">
                 <h2 className="text-3xl font-bold mt-12 mb-8">
                   Geniet van ons “Kompleet” voordeel
                 </h2>

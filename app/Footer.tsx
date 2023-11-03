@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <div className="md:ml-8 space-x-8 text-black order-1 md:order-2 md:text-left text-center">
           <Link href="/gallery" className="text-lg">
-            Gallery
+            Gallerij
           </Link>
           <Link className="text-lg" href="/over-ons">
             Over ons
@@ -18,7 +18,7 @@ const Footer = () => {
             Contact
           </Link>
           <Link
-            className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+            className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full w-[200px] md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
             href="/configureer"
           >
             Configureer trap

@@ -61,7 +61,7 @@ const Header = ({ option }: options) => {
             </div>
             <div className="hidden space-x-8 md:block">
               <Link href="/gallery" className="text-lg">
-                Gallery
+                Gallerij
               </Link>
               <Link className="text-lg" href="/over-ons">
                 Over ons
@@ -95,7 +95,7 @@ const Header = ({ option }: options) => {
                   </li>
                   <li className="text-center m-1 p-2 rounded-lg hover:cursor-pointer hover:bg-gray-600">
                     <Link href="/gallery" className="text-lg">
-                      Gallery
+                      Gallerij
                     </Link>
                   </li>
                   <li className="text-center m-1 p-2 rounded-lg hover:cursor-pointer hover:bg-gray-600">
@@ -196,7 +196,7 @@ const Header = ({ option }: options) => {
             </div>
             <div className="hidden space-x-8 md:block">
               <Link href="/gallery" className="text-lg">
-                Gallery
+                Gallerij
               </Link>
               <Link className="text-lg" href="/over-ons">
                 Over ons
@@ -227,16 +227,25 @@ const Header = ({ option }: options) => {
                     />
                   </li>
                   <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Gallery</a>
+                    <a href="/gallery" className="text-lg">
+                      Gallerij
+                    </a>
                   </li>
                   <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Over ons</a>
+                    <a href="/over-ons" className="text-lg">
+                      Over ons
+                    </a>
                   </li>
                   <li className="text-center m-4 hover:cursor-pointer hover:bg-gray-600">
-                    <a className="text-lg">Contact</a>
+                    <a href="/contact" className="text-lg">
+                      Contact
+                    </a>
                   </li>
                   <li className="text-center m-4 hover:cursor-pointer">
-                    <a className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+                    <a
+                      className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+                      href="/configureer"
+                    >
                       Configureer trap
                     </a>
                   </li>

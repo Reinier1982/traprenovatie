@@ -1,7 +1,16 @@
+"use client";
 import Footer from "../Footer";
 import Header from "../Header";
+import { submitForm } from "./form";
+import { useFormState } from "react-dom";
+
+const initialState = {
+  message: null,
+};
 
 const contact = () => {
+  const [state, formAction] = useFormState(submitForm, initialState);
+  console.log(state);
   return (
     <>
       <div className="min-h-screen flex flex-col">
@@ -22,13 +31,26 @@ const contact = () => {
                 </p>
               </div>
               <div>
-                <form>
-                  <div className="grid grid-cols-2 gap-4 mt-12">
+                <form action={formAction}>
+                  <div
+                    className={`bg-green-100 border-l-4 border-green-500 text-green-700 p-4 ${
+                      state?.message == "true" ? "" : "hidden"
+                    }`}
+                    role="alert"
+                  >
+                    <p className="font-bold">Bericht verstuurd</p>
+                    <p>
+                      U krijgt uiterlijk voor het einde van de volgende werkdag
+                      bericht van ons.
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 mt-4">
                     <div className="">
                       <input
                         type="text"
+                        name="name"
                         placeholder="Naam"
-                        className="relative w-full h-14 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
+                        className="relative w-full h-11 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
                       />
                     </div>
                     <div>
@@ -37,29 +59,23 @@ const contact = () => {
                         placeholder="E-mail"
                         name="email"
                         id="email"
-                        className="relative w-full h-14 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
+                        className="relative w-full h-11 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
                       />
                     </div>
                   </div>
                   <div className="grid grid-cols-1">
                     <input
                       type="text"
+                      name="phone"
                       placeholder="Telefoonnummer"
-                      className="relative w-full h-14 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
-                    />
-                    <input
-                      type="number"
-                      placeholder="Aantal benodigde treden"
-                      name="number"
-                      id="number"
-                      className="relative w-full h-14 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
+                      className="relative w-full h-11 py-4 px-3 m-2 border text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg"
                     />
                     <textarea
                       placeholder="Stel je vraag"
                       name="question"
                       id="question"
-                      rows={4}
-                      className="relative w-full h-14 py-4 px-3 m-2 border min-h-[150px] text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg resize"
+                      rows={3}
+                      className="relative w-full h-11 py-4 px-3 m-2 border min-h-[110px] text-black border-gray-400 hover:border-white focus-within:border-green-500 rounded-lg resize"
                     ></textarea>
                   </div>
                   <div className="text-right m-2">
