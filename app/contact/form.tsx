@@ -22,16 +22,16 @@ export async function submitForm(prevState: any, formData: FormData) {
       ],
     };
     try {
-      const request = await mailjet
+      const request: any = await mailjet
         .apiConnect(
           process.env.MAILJET_API_PUBLIC_KEY as string,
           process.env.MAILJET_API_PRIVATE_KEY as string
         )
         .post("send", { version: "v3.1" })
         .request(emailData);
-
+      console.log("body", request.body);
       const { Status } = request.body.Messages[0];
-      console.log(Status);
+      console.log("S", Status);
       return Status;
     } catch (error) {
       console.error(error);
