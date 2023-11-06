@@ -27,6 +27,10 @@ const config: Config = {
           "url('/Eiken trap met zwarte stootborden en verlichting.jpeg')",
         eightImage: "url('/Trap met traplift.jpeg')",
         ninthImage: "url('/Zwarte trap met verlichting.jpeg')",
+        tenthImage: "url('/Licht eiken trap met verlichting.jpeg')",
+        eleventhImage:
+          "url('/Zand eiken trap met witte stootborden verlicht.jpeg')",
+        twelfthImage: "url('/Zand eiken treden trap met verlichting.jpeg')",
       },
       brightness: {
         25: ".25",

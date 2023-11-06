@@ -23,6 +23,9 @@ const gallery = () => {
             <div className="bg-seventhImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
             <div className="bg-eightImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
             <div className="bg-ninthImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
+            <div className="bg-tenthImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
+            <div className="bg-eleventhImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
+            <div className="bg-twelfthImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
             <div className="bg-fifthImage 2xl:w-[420px] 2xl:h-[640px] xl:w-[370px] xl:h-[568px] lg:w-[290px] lg:h-[455px] md:w-[215px] md:h-[455px] w-[285px] h-[455px] bg-cover bg-bottom rounded-2xl" />
           </div>
         </div>
