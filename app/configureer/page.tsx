@@ -136,7 +136,7 @@ const configurator = () => {
                 <Board data={boardSetter()} />
                 <Cheek data={cheekSetter()} />
               </div>
-              <div className="col-span-2 bg-slate-200">
+              <div className="col-span-2 bg-slate-200 text-white">
                 <div className="grid grid-cols-3 w-full">
                   <button
                     onClick={() => onButtonClick("step")}

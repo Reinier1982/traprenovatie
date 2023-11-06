@@ -9,7 +9,7 @@ const Header = ({ option }: options) => {
   if (option === "main") {
     return (
       <header>
-        <div className="h-16 bg-[#222222]">
+        <div className="h-16 bg-[#222222] text-white">
           <div className="container mx-auto flex justify-center md:justify-end">
             <div className="flex text-xs md:text-lg py-6 pr-2 md:p-5 space-x-2">
               <svg
@@ -59,7 +59,7 @@ const Header = ({ option }: options) => {
                 />
               </Link>
             </div>
-            <div className="hidden space-x-8 md:block">
+            <div className="hidden space-x-8 md:block text-white">
               <Link href="/gallery" className="text-lg">
                 Gallerij
               </Link>
@@ -120,7 +120,7 @@ const Header = ({ option }: options) => {
               </div>
             </button>
           </div>
-          <div className="relative h-[482px] w-full flex flex-col">
+          <div className="relative h-[482px] w-full flex flex-col text-white">
             <h1 className="text-4xl my-8 font-extrabold text-center md:text-left md:ml-4 xl:ml-1">
               Geef uw trap een nieuwe look
             </h1>
@@ -147,10 +147,10 @@ const Header = ({ option }: options) => {
     );
   } else if (option === "other") {
     return (
-      <header>
+      <header className="bg-black">
         <div className="h-16 bg-[#222222]">
-          <div className="container mx-auto flex justify-center md:justify-end">
-            <div className="flex text-xs md:text-lg py-6 pr-2 md:p-5 space-x-2">
+          <div className="container mx-auto flex justify-center md:justify-end text-white">
+            <div className="flex text-xs md:text-lg py-7 pr-2 md:p-5 space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -164,7 +164,7 @@ const Header = ({ option }: options) => {
                 info@kompleettraprenovatie.nl
               </a>
             </div>
-            <div className="flex text-xs md:text-lg py-6 pl-2 md:p-5 space-x-2">
+            <div className="flex text-xs md:text-lg py-7 pl-2 md:p-5 space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -181,8 +181,8 @@ const Header = ({ option }: options) => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto">
-          <div className="relative h-[114px] w-full z-10 flex flex-row justify-between items-center">
+        <div className="container mx-auto bg-black">
+          <div className="relative h-[114px] w-full z-10 flex flex-row justify-between items-center text-white">
             <div>
               <Link href="/">
                 <Image

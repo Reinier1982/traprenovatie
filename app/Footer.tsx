@@ -18,7 +18,7 @@ const Footer = () => {
             Contact
           </Link>
           <Link
-            className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full w-[200px] md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+            className="inline-flex items-center justify-center px-4 py-2 md:mt-0 mt-6 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full w-[200px] md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
             href="/configureer"
           >
             Configureer trap

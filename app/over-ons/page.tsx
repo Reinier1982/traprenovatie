@@ -6,11 +6,11 @@ const about = () => {
   return (
     <>
       <Header option="other" />
-      <section className="h-full bg-[#333541]">
+      <section className="h-full bg-[#000] text-white">
         <div className="container mx-auto">
           <div className="grid grid-cols-5">
-            <div></div>
-            <div className="text-center mb-16 col-span-3">
+            <div className=""></div>
+            <div className="text-center mb-16 col-span-5 md:col-span-3 mx-4 md:mx-0 ">
               <h2 className="text-5xl font-bold mt-12">Over ons</h2>
               <p className="my-8">
                 Kiest u voor kwaliteit, dan kiest u voor Kompleet

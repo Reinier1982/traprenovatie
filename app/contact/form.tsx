@@ -1,6 +1,20 @@
 "use server";
 import mailjet from "node-mailjet";
 
+interface Request {
+  body: {
+    Messages: [
+      {
+        Status: string;
+        CustomID: string;
+        To: [];
+        Cc: [];
+        Bcc: [];
+      }
+    ];
+  };
+}
+
 export async function submitForm(prevState: any, formData: FormData) {
   const sendMail = async (body: string) => {
     const emailData = {
@@ -22,7 +36,7 @@ export async function submitForm(prevState: any, formData: FormData) {
       ],
     };
     try {
-      const request: any = await mailjet
+      const request: Request = await mailjet
         .apiConnect(
           process.env.MAILJET_API_PUBLIC_KEY as string,
           process.env.MAILJET_API_PRIVATE_KEY as string
