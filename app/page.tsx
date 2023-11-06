@@ -33,8 +33,6 @@ export default function Home() {
               Ontdek de grenzeloze mogelijkheden van trappenrenovatie terwijl u
               wordt omringd door design en vakmanschap. Laat de showroom u
               inspireren en u helpen bij het visualiseren van uw ideale trap.
-              Ervaar de luxe materialen, voel de verfijnde afwerkingen en krijg
-              persoonlijk advies.
             </p>
           </div>
           <div className="flex md:ml-8 m-8 md:m-0 justify-center">
@@ -59,12 +57,12 @@ export default function Home() {
           </div>
           <div className="md:ml-8 order-1 md:order-2">
             <h2 className="text-3xl font-extrabold text-black text-center">
-              Treed binnen in onze showroom
+              Betreed uw nieuwe trap
             </h2>
             <hr className="border-red-700 border-solid border-t-[6px] mt-6 w-48 mx-auto" />
             <p className="text-black pt-8 text-center">
               Ontdek de grenzeloze mogelijkheden van trappenrenovatie terwijl u
-              wordt omringd door design en vakmanschap. Laat de showroom u
+              wordt omringd door design en vakmanschap. Laat onze configurator u
               inspireren en u helpen bij het visualiseren van uw ideale trap.
               Ervaar de luxe materialen, voel de verfijnde afwerkingen en krijg
               persoonlijk advies.
