@@ -5,12 +5,11 @@ import { submitForm } from "./form";
 import { useFormState } from "react-dom";
 
 const initialState = {
-  message: null,
+  message: "",
 };
 
 const contact = () => {
   const [state, formAction] = useFormState(submitForm, initialState);
-  console.log(state);
   return (
     <>
       <div className="min-h-screen flex flex-col bg-black text-white">

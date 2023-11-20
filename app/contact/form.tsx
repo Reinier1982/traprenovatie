@@ -15,7 +15,10 @@ interface Request {
   };
 }
 
-export async function submitForm(prevState: any, formData: FormData) {
+export async function submitForm(
+  prevState: { message: string },
+  formData: FormData
+) {
   const sendMail = async (body: string) => {
     const emailData = {
       Messages: [
