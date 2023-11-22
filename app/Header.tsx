@@ -134,12 +134,18 @@ const Header = ({ option }: options) => {
               van hoe uw trap eruit zal zien.
             </p>
             <div className="inline-flex space-x-8 py-8 justify-center md:justify-normal md:ml-4 xl:ml-1">
-              <button className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white border-2 border-white rounded-full">
+              <Link
+                className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white border-2 border-white rounded-full"
+                href="/contact"
+              >
                 Neem contact op
-              </button>
-              <button className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+              </Link>
+              <Link
+                className="inline-flex items-center justify-center px-4 py-2 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+                href="/configureer"
+              >
                 Configureer trap
-              </button>
+              </Link>
             </div>
           </div>
         </div>
