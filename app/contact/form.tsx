@@ -46,15 +46,16 @@ export async function submitForm(
         )
         .post("send", { version: "v3.1" })
         .request(emailData);
-      console.log("body", request.body);
+      console.log("Request body:", request.body);
       const { Status } = request.body.Messages[0];
-      console.log("S", Status);
+      console.log("Email status:", Status);
       return Status;
     } catch (error) {
-      console.error(error);
+      console.error("Error sending email:", error);
       throw error;
     }
   };
+
   const name = formData.get("name");
   const email = formData.get("email");
   const phone = formData.get("phone");
@@ -70,6 +71,7 @@ export async function submitForm(
     await sendMail(mailBody);
     return { message: "true" };
   } catch (e) {
+    console.error("Error in submitForm:", e);
     return { message: "false" };
   }
 }
