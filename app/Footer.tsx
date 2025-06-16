@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-300">
       <div className="grid md:grid-cols-2 grid-row-1 gap-12 md:gap-4 md:h-[150px] py-12 md:py-[64px] container mx-auto">
         <div className="md:mr-8 text-black order-2 md:order-1 md:text-left text-center">
-          © 2023 Kompleet Traprenovatie
+          © {new Date().getFullYear()} Kompleet Traprenovatie
         </div>
         <div className="md:ml-8 space-x-8 text-black order-1 md:order-2 md:text-left text-center">
           <Link href="/gallery" className="text-lg">
