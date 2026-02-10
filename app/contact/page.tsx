@@ -94,8 +94,8 @@ const contact = () => {
                 <p className="mb-4">
                   <b className="text-xl">Kompleet Trap-Renovatie</b>
                 </p>
-                <p>Julianaweg 200</p>
-                <p className="mb-4">1131 DL Volendam</p>
+                <p>Baardmosstraat 135</p>
+                <p className="mb-4">1441 LV Purmerend</p>
                 <p>Telefoonummer: 06 3970 2331</p>
                 <p>
                   E-mail:{" "}
